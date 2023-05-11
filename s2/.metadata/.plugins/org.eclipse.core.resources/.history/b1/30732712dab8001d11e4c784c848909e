@@ -1,0 +1,15 @@
+package TP2;
+
+public class tablaurationelle extends Tablau {
+
+	public tablaurationelle(Object[] T) {
+		super(T);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Boolean inf(Object x, Object y) {
+		return null;
+	}
+
+}

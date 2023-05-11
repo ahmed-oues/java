@@ -1,0 +1,16 @@
+package TP2;
+
+public class rationnel extends Tablau {
+
+	public rationnel(Object[] T) {
+		super(T);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Boolean inf(Object x, Object y) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

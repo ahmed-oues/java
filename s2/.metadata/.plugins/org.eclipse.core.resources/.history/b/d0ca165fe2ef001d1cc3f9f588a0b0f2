@@ -1,0 +1,12 @@
+package activity;
+import java.sql.Connection;
+
+public class MysqlConnecton {
+	
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

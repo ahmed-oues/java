@@ -1,0 +1,7 @@
+package TP2;
+
+public abstract class Tablau {
+	public Tablau(Object[]) {
+	}
+	abstract public Boolean inf(Object x,Object y);
+}

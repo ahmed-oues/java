@@ -1,0 +1,11 @@
+package TP2;
+
+public class Agregat extends TP2 {
+	interface Iterateur {
+		void init(); // se positionne sur le premier élément
+		Object suivant(); // passe à l'élément suivant et le retourne
+		boolean fini(); // indique si on se trouve sur le dernier élément
+		Object courant(); // retourne l'élément courant
+		}
+
+}

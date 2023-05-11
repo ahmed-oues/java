@@ -1,0 +1,10 @@
+package TP2;
+
+public abstract class Agregat {
+
+    public abstract boolean inf(Object x, Object y);
+
+    protected abstract Iterateur getIterateur();    
+}
+public interface Iterateur {
+ }

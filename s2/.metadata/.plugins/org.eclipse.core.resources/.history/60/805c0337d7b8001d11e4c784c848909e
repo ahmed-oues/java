@@ -1,0 +1,11 @@
+package TP2;
+
+public class tablaurationelle extends Tablau {
+
+	@Override
+	public Boolean inf(Object x, Object y) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

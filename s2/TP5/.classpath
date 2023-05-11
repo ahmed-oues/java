@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-reads" value="java.base=java.rmi:java.base=jdk.management.jfr:java.base=jdk.jdi:java.base=jdk.charsets:java.base=java.xml:java.base=jdk.xml.dom:java.base=java.datatransfer:java.base=jdk.jstatd:java.base=jdk.httpserver:java.base=jdk.jcmd:java.base=java.desktop:java.base=java.se:java.base=java.security.sasl:java.base=jdk.zipfs:java.base=jdk.crypto.ec:java.base=jdk.javadoc:java.base=jdk.management.agent:java.base=jdk.jshell:java.base=jdk.editpad:java.base=java.sql.rowset:java.base=jdk.jsobject:java.base=jdk.sctp:java.base=java.smartcardio:java.base=jdk.jlink:java.base=jdk.unsupported:java.base=java.security.jgss:java.base=java.compiler:java.base=jdk.nio.mapmode:java.base=jdk.dynalink:java.base=jdk.unsupported.desktop:java.base=jdk.accessibility:java.base=jdk.security.jgss:java.base=java.sql:java.base=jdk.hotspot.agent:java.base=java.logging:java.base=java.transaction.xa:java.base=java.xml.crypto:java.base=jdk.jfr:java.base=jdk.internal.vm.ci:java.base=jdk.crypto.cryptoki:java.base=jdk.net:java.base=jdk.random:java.base=java.naming:java.base=jdk.internal.ed:java.base=java.prefs:java.base=java.net.http:java.base=jdk.compiler:java.base=jdk.internal.opt:java.base=jdk.naming.rmi:java.base=jdk.jconsole:java.base=jdk.attach:java.base=jdk.internal.le:java.base=java.management:java.base=jdk.jdwp.agent:java.base=jdk.internal.jvmstat:java.base=java.instrument:java.base=jdk.internal.vm.compiler:java.base=jdk.internal.vm.compiler.management:java.base=jdk.management:java.base=jdk.security.auth:java.base=java.scripting:java.base=jdk.jdeps:java.base=jdk.jartool:java.base=java.management.rmi:java.base=jdk.jpackage:java.base=jdk.naming.dns:java.base=jdk.localedata"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

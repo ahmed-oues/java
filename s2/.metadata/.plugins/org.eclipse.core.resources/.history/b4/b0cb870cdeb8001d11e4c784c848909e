@@ -1,0 +1,29 @@
+package TP2;
+
+public class rationnel {
+
+    private int numerateur;
+    private int denominateur;
+
+    public rationnel(int numerateur, int denominateur) {
+//        if (denominateur == 0) {
+//            throw new IllegalArgumentException("Denominateur ne peut pas être zéro.");
+//        }
+        this.numerateur = numerateur;
+        this.denominateur = denominateur;
+        
+    }
+
+    
+
+	public int getNumerateur() {
+        return numerateur;
+    }
+
+    public int getDenominateur() {
+        return denominateur;
+    }
+//    public rationnel1(int numerateur2, int denominateur2) {
+//		
+//	}
+}
