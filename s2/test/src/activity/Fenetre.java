@@ -1,9 +1,15 @@
 package activity;
 
+import java.awt.FlowLayout;
 import java.awt.GridLayout;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -38,6 +44,7 @@ public class Fenetre extends JFrame implements ActionListener{
 	
 	JPanel pano = new JPanel();
 	pano.setLayout(new GridLayout(6,2));
+
 	pano.add(prenomLabel); pano.add(prenom);
 	pano.add(nomLabel); pano.add(nom);
 	pano.add(classeLabel); pano.add(classe);
@@ -63,15 +70,18 @@ public class Fenetre extends JFrame implements ActionListener{
 			 
 			etudiant etud = new etudiant(text, text1, text2, text3, text4);
 			JOptionPane.showMessageDialog(null, etud.toString());
+			EtudiantDAO DAO = new EtudiantDAO();
+			
+			
+			DAO.insert(etud); 
+			
 			}
-		
 		if(e.getSource() == Cancel){
 			this.dispose();
 			System.exit(0);
 			}
 		
 	}
-
 	public static void main(String args[])
 	{
 	new Fenetre();

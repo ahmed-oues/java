@@ -49,6 +49,7 @@ public class etudiant {
 		return "etudiant [prenom=" + prenom + ", nom=" + nom + ", classe=" + classe + ", login=" + login + ", password="
 				+ password + "]";
 	}
+
 	
 	
 	
